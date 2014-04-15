@@ -27,7 +27,7 @@ implementation
 
 procedure TMainWindow.FormCreate(Sender: TObject);
 begin
-  MainWindow.BoxStatus.Caption := 'Мы загрузились!';
+  MainWindow.BoxStatus.Caption := 'First start!'; // I was Here! :)
 end;
 
 end.

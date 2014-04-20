@@ -3,7 +3,6 @@ object MainWindow: TMainWindow
   Top = 160
   Width = 696
   Height = 375
-  Caption = 'MainWindow'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -15,10 +14,10 @@ object MainWindow: TMainWindow
   PixelsPerInch = 96
   TextHeight = 13
   object BoxStatus: TLabel
-    Left = 136
-    Top = 80
-    Width = 81
-    Height = 41
-    Caption = 'BoxStatus'
+    Left = 8
+    Top = 8
+    Width = 89
+    Height = 13
+    Caption = #1057#1090#1072#1090#1091#1089
   end
 end

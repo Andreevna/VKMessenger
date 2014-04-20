@@ -22,12 +22,15 @@ var
 implementation
 
 {$R *.dfm}
-
-
+                          // коменты еще так став€тс €
+                                    {
+                                    так просто можно ентер жать
+                                    пон€ла)
+                                    }
 
 procedure TMainWindow.FormCreate(Sender: TObject);
 begin
-  MainWindow.BoxStatus.Caption := 'ћы загрузились!';
+  MainWindow.BoxStatus.Caption := 'ѕервый запуск?!';
 end;
 
 end.
